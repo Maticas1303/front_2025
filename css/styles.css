@@ -11,7 +11,7 @@ body{
 }
 
 img{
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .container{
@@ -44,4 +44,16 @@ img{
     align-items: center;
     background-color: #0FEEFA;
 
+}
+
+.backgound-image{
+    background-image: url("../img/backgound.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+}
+
+.backgound-image h1{
+    color: white;
+    margin: 0 10rem;
 }
